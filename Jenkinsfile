@@ -13,8 +13,7 @@ pipeline {
                                 selectedValue: 'TOP', 
                                 sortMode: 'ASCENDING_SMART', 
                                 tagFilter: '*', 
-                                type: 'PT_BRANCH', 
-                                useRepository: 'https://github.com/richardwang168/jenkins.git'
+                                type: 'PT_BRANCH'
                             )
                         ])
                     ])
