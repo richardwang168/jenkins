@@ -21,5 +21,10 @@ pipeline {
                 }
             }
         }
+        stage('Show branch-based-jenkinsFile') {
+            steps {
+                echo "This jenkinsfile is in main branch"
+            }
+        }
     }   
 }
